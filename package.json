@@ -1,0 +1,26 @@
+{
+  "name": "lagon-menu-v2",
+  "version": "2.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "test": "node tests/backend.test.mjs",
+    "build:pages": "node scripts/package-pages.mjs"
+  },
+  "dependencies": {
+    "@google/model-viewer": "^4.1.0",
+    "@supabase/supabase-js": "^2.116.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@electric-sql/pglite": "^0.5.8",
+    "@tailwindcss/vite": "^4.1.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "sharp": "^0.35.4",
+    "tailwindcss": "^4.1.0",
+    "vite": "^7.1.0"
+  }
+}
