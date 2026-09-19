@@ -1,0 +1,10 @@
+node_modules/
+dist/
+github-upload/
+*.zip
+backend/menu-data.mjs
+.github-pages/
+.sites-runtime/
+.env
+.env.*
+!.env.example
